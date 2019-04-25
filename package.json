@@ -1,0 +1,25 @@
+{
+  "name": "ghostly",
+  "version": "0.0.1",
+  "description": "Install a Ghost blog on Glitch",
+  "scripts": {
+    "start": "bash init.sh && node node_modules/ghost/index"
+  },
+  "dependencies": {
+    "ghost": "^2.21.0",
+    "ghost-cli": "^1.10.0",
+    "knex-migrator": "^3.2.6"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/ghostly"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
